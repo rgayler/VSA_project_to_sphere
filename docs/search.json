@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Project VSA hypervectors to a sphere",
+    "section": "",
+    "text": "Motivation\nAt the Midnight Sun VSA Workshop 2023, Ross Gayler mentioned the thought experiment of projecting a Vector Symbolic Architecture hyperspace onto a sphere and observing the effects of the VSA operators on the hypervectors (video, slides). This involved much handwaving, but no actual visualisations. The aim of this website is to computationally realise that thought experiment. We hope that this will help people to get a better intuitive understanding of Vector Symbolic Architectures.\n\n\nDesign\n\n\nAngles in VSA space\n\n\nQuasiorthogonality\n\n\nNegation\n\n\nInverse\n\n\nPermutation\n\n\nAddition (bundling)\n\n\nMultiplication (binding)"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This website demonstrates the action of Vector Symbolic Architecture operators by projecting the hypervectors to the surface of a sphere.\nThis is the work of Ross W. Gayler and Jeff Orchard.\nAll materials other than code are released under the Creative Commons Attribution 4.0 International License.\nCode is released under the MIT license."
+  }
+]

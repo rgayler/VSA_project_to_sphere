@@ -1,0 +1,11 @@
+---
+title: "About"
+---
+
+This website demonstrates the action of [Vector Symbolic Architecture](https://www.hd-computing.com/) operators by projecting the hypervectors to the surface of a sphere.
+
+This is the work of [Ross W. Gayler](https://www.rossgayler.com/) and [Jeff Orchard](https://cs.uwaterloo.ca/~jorchard/).
+
+**All materials other than code** are released under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+
+**Code** is released under the [MIT license](https://choosealicense.com/licenses/mit/).

@@ -1,0 +1,30 @@
+---
+title: "Project VSA hypervectors to a sphere"
+author: 
+  - Ross W. Gayler
+  - Jeff Orchard
+date: In progress
+---
+
+# Motivation
+
+At the [Midnight Sun VSA Workshop 2023](https://sites.google.com/ltu.se/midnightvsa/home?authuser=0), [Ross Gayler](https://www.rossgayler.com/) mentioned the thought experiment of projecting a [Vector Symbolic Architecture](https://www.hd-computing.com/) hyperspace onto a sphere and observing the effects of the VSA operators on the hypervectors ([video](https://doi.org/10.5281/zenodo.8076677), [slides](https://doi.org/10.5281/zenodo.8076707)).
+This involved much handwaving, but no actual visualisations.
+The aim of this website is to computationally realise that thought experiment.
+We hope that this will help people to get a better intuitive understanding of Vector Symbolic Architectures.
+
+# Design
+
+# Angles in VSA space
+
+# Quasiorthogonality
+
+# Negation
+
+# Inverse
+
+# Permutation
+
+# Addition (bundling)
+
+# Multiplication (binding)
