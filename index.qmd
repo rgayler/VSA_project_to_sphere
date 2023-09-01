@@ -3,7 +3,7 @@ title: "Project VSA hypervectors to a sphere"
 author: 
   - Ross W. Gayler
   - Jeff Orchard
-date: In progress
+date: "In progress (2023)"
 ---
 
 # Motivation
@@ -21,31 +21,52 @@ The angles between vectors are independent of the magnitudes of the vectors (exc
 In VSA the hypervectors are often normalised to a constant magnitude.
 In this case the hypervectors all lie on the surface of a hypersphere.
 
-If the hpervectors lie on a hypersphere it is convenient to project them to the surface of a sphere.
+If the hypervectors lie on a hypersphere it is convenient to project them to the surface of a sphere.
 This is easy to visualise and preserves the equal magnitudes of the vectors.
 
 The elements of the hypervectors are [complex numbers](https://en.wikipedia.org/wiki/Complex_number).
 This is the most general form of VSA currently in common use.
 The other common forms ([real](https://en.wikipedia.org/wiki/Real_number) or binary valued elements) can be interpreted as special cases of the complex valued form.
 We project from the complex hypersphere to the real sphere because we are only interested in the angles between the vectors.
-It doesn't matter that the visualisation space is real valued.
+It doesn't matter that the visualisation space is real valued rather than complex valued.
 
 The VSA operators are binary (sum, product), unary (negation, reciprocal), and nullary (**0**, **1**) if you want to think of the constants as operators.
 Thus, there are at most three hypervectors linked by a single operator - two operands and the result.
-This is convenient because we can visualise a maximum of three mutually orthogonal vector on the surface of a sphere.
+This is convenient because we can visualise a maximum of three mutually orthogonal vectors on the surface of a sphere (without needing to transform the angles between the vectors).
 
 If it turns out that we need to represent more mutually orthogonal vectors we can reduce the [arity](https://en.wikipedia.org/wiki/Arity) of the binary operators by fixing one of the operands to a literal hypervector value ([partial application](https://en.wikipedia.org/wiki/Partial_application)).
 
 We also want consider the angular relations to other (arbitrarily many) hypervectors not involved in the operation.
-Then we visualise the action of the unary partial function rather than the binary operator.
+Then we visualise the action of the unary [partial function application](https://en.wikipedia.org/wiki/Partial_application) rather than the binary operator.
+
+We want to (approximately) preserve the angles between the low-dimensional projections of the small number of hypervectors of interest.
+We also want these angular relations to be visually apparent.
+The angles must be large enough to be readily perceptible.
+On the other hand, we are not particularly interested in the angles between the very many other hypervectors, so we don't need to preserve their angular relations and they can be scaled to imperceptibly small angles.
+
+Furthermore, it is desirable for the hypervectors for interest that the projection doesn't markedly distort negation.
+That is, negated hypervectors of interest should be projected to (approximately) negated visualisation vectors.
+
+These desiderata imply that the projection from the hypervector space to the visualisation space is inhomogeneous.
+The projection of the hypervectors of interest differs from projection of all the other hypervectors.
+
+We had originaly intended to find some (random) projection hypervector space to visualisation space that (approximately) preserves the angular relations.
+However, it's not obvious how to do this in the inhomogeneous fashion required to concentrate on the hypervectors of interest.
+Instead we will first empirically calculate distributions of the angles of interest in the hypervector space, then hand construct three-dimensional visulaisations to illustrate those distributions.
+
+If we later find some way to construct an appropriate projection *a posteriori* we will come back and update these illustrations.
 
 # Angles in VSA space
+
+## Angles between complex valued vectors
+
+## Dot product as mean elementwise similarity
 
 # Quasiorthogonality
 
 # Negation
 
-# Inverse
+# Reciprocal
 
 # Permutation
 
